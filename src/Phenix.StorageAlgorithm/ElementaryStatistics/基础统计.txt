@@ -1,0 +1,1 @@
+﻿AccumulatedMode：堆积数值的众数

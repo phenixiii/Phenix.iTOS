@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net7.0</TargetFramework>
+	    <Version>7.7.60</Version>
+	    <AssemblyVersion>7.7.60.0428</AssemblyVersion>
+	    <FileVersion>7.7.60.0428</FileVersion>
+		<Description>Phenix Framework 7.7 for .NET 7</Description>
+		<Authors>ming</Authors>
+		<GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+		<AssemblyName>Phenix.StorageAlgorithm</AssemblyName>
+		<RootNamespace>Phenix.StorageAlgorithm</RootNamespace>
+		<Copyright>Copyright © 2007, 2023 Phenixヾ Studio</Copyright>
+		<Company />
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+		<OutputPath>..\Bin\</OutputPath>
+		<DocumentationFile>..\Bin\Phenix.StorageAlgorithm.xml</DocumentationFile>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+		<OutputPath>..\Bin\</OutputPath>
+		<DocumentationFile>..\Bin\Phenix.StorageAlgorithm.xml</DocumentationFile>
+	</PropertyGroup>
+
+	<ItemGroup>
+        <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    </ItemGroup>
+	
+	<ItemGroup>
+		<Reference Include="Phenix.Core">
+			<HintPath>..\Bin\net7.0\Phenix.Core.dll</HintPath>
+		</Reference>
+	</ItemGroup>
+
+</Project>
