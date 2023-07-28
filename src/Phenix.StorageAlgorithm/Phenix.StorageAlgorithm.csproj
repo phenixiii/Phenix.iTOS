@@ -8,20 +8,20 @@
 		<Description>Phenix Framework 7.7 for .NET 7</Description>
 		<Authors>ming</Authors>
 		<GeneratePackageOnBuild>false</GeneratePackageOnBuild>
-		<AssemblyName>StorageAlgorithm</AssemblyName>
-		<RootNamespace>StorageAlgorithm</RootNamespace>
+		<AssemblyName>Phenix.StorageAlgorithm</AssemblyName>
+		<RootNamespace>Phenix.StorageAlgorithm</RootNamespace>
 		<Copyright>Copyright © 2007, 2023 Phenixヾ Studio</Copyright>
 		<Company />
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
 		<OutputPath>..\Bin\</OutputPath>
-		<DocumentationFile>..\Bin\StorageAlgorithm.xml</DocumentationFile>
+		<DocumentationFile>..\Bin\Phenix.StorageAlgorithm.xml</DocumentationFile>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
 		<OutputPath>..\Bin\</OutputPath>
-		<DocumentationFile>..\Bin\StorageAlgorithm.xml</DocumentationFile>
+		<DocumentationFile>..\Bin\Phenix.StorageAlgorithm.xml</DocumentationFile>
 	</PropertyGroup>
 
 	<ItemGroup>

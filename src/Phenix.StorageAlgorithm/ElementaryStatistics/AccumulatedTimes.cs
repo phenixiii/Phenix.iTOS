@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace StorageAlgorithm.ElementaryStatistics
+namespace Phenix.StorageAlgorithm.ElementaryStatistics
 {
     /// <summary>
     /// 堆积数值规模

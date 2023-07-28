@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace StorageAlgorithm.StackStorageLocation
+namespace Phenix.StorageAlgorithm.StackStorageLocation
 {
     /// <summary>
     /// 挑货
