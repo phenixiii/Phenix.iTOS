@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Phenix.Algorithm.ElementaryStatistics
+namespace StorageAlgorithm.ElementaryStatistics
 {
     /// <summary>
     /// 堆积数值的众数

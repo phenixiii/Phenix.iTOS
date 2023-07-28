@@ -6,6 +6,6 @@ Copyright © 2007, 2023 Phenixヾ Studio
 
 
 20230504
-1，提供Phenix.Core工程，已精简功能到非常通用的开发工具库
-2，提供Phenix.Algorithm工程，已完成“0-1背包问题的动态规划算法”（ZeroOneKnapsack，含对集束数据的解法BunchKnapsack）、“堆积数值的众数”（AccumulatedMode）
+1，提供Phenix.Core工程，精简版开发工具库
+2，提供Phenix.Algorithm工程，已完成“栈式库位挑货问题”（StackStorageLocation）、“基础统计.堆积数值的众数”（ElementaryStatistics.AccumulatedMode）
 
