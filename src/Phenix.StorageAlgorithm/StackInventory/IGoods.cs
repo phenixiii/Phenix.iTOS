@@ -1,4 +1,4 @@
-﻿namespace Phenix.StorageAlgorithm.StackStorageLocation
+﻿namespace Phenix.StorageAlgorithm.StackInventory
 {
     /// <summary>
     /// 货物接口

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Phenix.StorageAlgorithm.StackStorageLocation
+namespace Phenix.StorageAlgorithm.StackInventory
 {
     /// <summary>
     /// 分组货物

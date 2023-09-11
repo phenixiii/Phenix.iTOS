@@ -6,11 +6,12 @@ Copyright © 2007, 2023 Phenixヾ Studio
 
 
 20230504
-1，提供Phenix.Core工程，精简版开发工具库
-2，提供Phenix.Algorithm工程，已完成“栈式库位挑货问题”（StackStorageLocation）、“基础统计.堆积数值的众数”（ElementaryStatistics.AccumulatedMode）
+提供Phenix.Core工程，精简版开发工具库
 
 
 20230907
 基于赵宁等编著《集装箱码头数字化营运管理（第二版）》、范志强的《集装箱港口连续泊位分配与岸桥作业调度联合优化》书籍，整理BAP+QCAP+QCSP集成算法所需的资料准备、业务规则、岗位分工、信息生成等内容，编写《BAP+QCAP+QCSP.xmind》思维导图
 
 
+20230911
+提供Phenix.Algorithm工程，已完成“栈式库位挑货问题”（StackInventory.ChooseGoods）、“基础统计.堆积数值的众数”（ElementaryStatistics.AccumulatedMode）
