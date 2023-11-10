@@ -19,7 +19,15 @@ namespace Phenix.StorageAlgorithm.StackInventory
 
         #region 工厂
 
-        internal static IList<GroupGoods> Fetch(IList<IGoods> source, Func<IGoods, bool> matchCondition, string owner, string transferTarget = null)
+        /// <summary>
+        /// 获取
+        /// </summary>
+        /// <param name="source">整排全部货物清单</param>
+        /// <param name="matchCondition">匹配条件</param>
+        /// <param name="owner">货主</param>
+        /// <param name="transferTarget">过户对象(出库时为null)</param>
+        /// <returns>分组货物</returns>
+        public static IList<GroupGoods> Fetch(IList<IGoods> source, Func<IGoods, bool> matchCondition, string owner, string transferTarget = null)
         {
             //整理成Row(小到大)-Layer(内到外)-Goods有序结构
             SortedDictionary<int, SortedDictionary<int, List<IGoods>>> rowGoodsDict = new SortedDictionary<int, SortedDictionary<int, List<IGoods>>>();

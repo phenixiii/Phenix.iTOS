@@ -26,7 +26,6 @@ namespace Phenix.StorageAlgorithm.StackInventory
         /// <param name="minWeight">最小重量</param>
         /// <param name="maxWeight">最大重量</param>
         /// <param name="aimForMaxWight">"足发"(false)要求尽量靠近区间的最小值、"不超发"(true)要求尽量靠近区间的最大值</param>
-        /// <exception cref="ArgumentNullException">source不允许为空</exception>
         /// <exception cref="ArgumentOutOfRangeException">minWight不允许小于0或大于maxWight</exception>
         /// <returns>挑出货的集合(挑不出时为null)</returns>
         public static IList<IGoods> Execute(IList<IGoods> source,
