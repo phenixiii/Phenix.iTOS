@@ -1,13 +1,12 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<TargetFramework>net7.0</TargetFramework>
-		<Version>7.7.60</Version>
-		<AssemblyVersion>7.7.60.1019</AssemblyVersion>
-		<FileVersion>7.7.60.1019</FileVersion>
-		<Description>Phenix Framework 7.7 for .NET 7</Description>
+		<TargetFramework>net8.0</TargetFramework>
+		<Version>7.8.60</Version>
+		<AssemblyVersion>7.8.60.1016</AssemblyVersion>
+		<FileVersion>7.8.60.1016</FileVersion>
+		<Description>Phenix Framework 7.8 for .NET 8</Description>
 		<Authors>ming</Authors>
-		<DefineConstants>TRACE;ORA</DefineConstants>
 		<GeneratePackageOnBuild>false</GeneratePackageOnBuild>
 		<AssemblyName>Phenix.Core</AssemblyName>
 		<RootNamespace>Phenix.Core</RootNamespace>
@@ -28,8 +27,8 @@
 	<ItemGroup>
 		<FrameworkReference Include="Microsoft.AspNetCore.App" />
 		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
-		<PackageReference Include="Serilog.AspNetCore" Version="6.1.0" />
-		<PackageReference Include="System.Data.SQLite.Core" Version="1.0.117" />
+		<PackageReference Include="Serilog.AspNetCore" Version="8.0.0" />
+		<PackageReference Include="System.Data.SQLite.Core" Version="1.0.118" />
 	</ItemGroup>
 
 	<ProjectExtensions>

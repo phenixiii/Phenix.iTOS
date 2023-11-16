@@ -21,3 +21,5 @@ Copyright © 2007, 2023 Phenixヾ Studio
 升级Phenix.Algorithm工程，实现“装船前预翻箱问题”（BayInventory.PreShipmentBlockRelocation）——开发中
 
 
+20231116
+升级到.NET8
