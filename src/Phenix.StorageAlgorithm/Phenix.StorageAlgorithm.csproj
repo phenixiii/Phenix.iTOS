@@ -10,7 +10,7 @@
 		<GeneratePackageOnBuild>false</GeneratePackageOnBuild>
 		<AssemblyName>Phenix.StorageAlgorithm</AssemblyName>
 		<RootNamespace>Phenix.StorageAlgorithm</RootNamespace>
-		<Copyright>Copyright © 2007, 2023 Phenixヾ Studio</Copyright>
+		<Copyright>Copyright © 2007, 2024 Phenixヾ Studio</Copyright>
 		<Company />
 	</PropertyGroup>
 
@@ -25,6 +25,7 @@
 	</PropertyGroup>
 
 	<ItemGroup>
+        <PackageReference Include="Accord.Math" Version="3.8.0" />
         <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
     </ItemGroup>
 	

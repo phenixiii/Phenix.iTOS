@@ -10,7 +10,7 @@
 		<GeneratePackageOnBuild>false</GeneratePackageOnBuild>
 		<AssemblyName>Phenix.Core</AssemblyName>
 		<RootNamespace>Phenix.Core</RootNamespace>
-		<Copyright>Copyright © 2007, 2023 Phenixヾ Studio</Copyright>
+		<Copyright>Copyright © 2007, 2024 Phenixヾ Studio</Copyright>
 		<Company />
 	</PropertyGroup>
 
@@ -30,11 +30,5 @@
 		<PackageReference Include="Serilog.AspNetCore" Version="8.0.0" />
 		<PackageReference Include="System.Data.SQLite.Core" Version="1.0.118" />
 	</ItemGroup>
-
-	<ProjectExtensions>
-		<VisualStudio>
-			<UserProperties Reactor_Enabled="1" />
-		</VisualStudio>
-	</ProjectExtensions>
 
 </Project>
