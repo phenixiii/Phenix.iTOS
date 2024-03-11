@@ -1,5 +1,5 @@
 Phenix.iTOS
-Copyright © 2007, 2023 Phenixヾ Studio
+Copyright © 2007, 2024 Phenixヾ Studio
 
 发布地址：https://github.com/phenixiii/Phenix.iTOS
 技术交流群：206648373
@@ -18,12 +18,19 @@ Copyright © 2007, 2023 Phenixヾ Studio
 
 
 20231023
-升级Phenix.Algorithm工程，实现“装船前预翻箱问题”（BayInventory.PreShipmentBlockRelocation）——开发中
+升级Phenix.Algorithm工程，启动“装船前预翻箱问题”（BayInventory.PreShipmentBlockRelocation）的研发
 
 
 20231116
 升级到.NET8
 
 
+20240102
+今日，“栈式库存挑货问题”（StackInventory.ChooseGoods）已成功申请到发明专利，使用需获得作者授权
+
+
 20240119
-升级Phenix.Algorithm工程，添加拆分数组目录，提供均衡拆分数组类EvenlySplitArray，将一个数值数组拆分为N个新数组，要使得分到新数组的数值的合计数，与新数组标定的可容纳极限值，差额在N个新数组之间尽可能接近一致。
+升级Phenix.Algorithm工程，添加拆分数组目录，提供均衡拆分数组类EvenlySplitArray，将一个数值数组拆分为N个新数组，要使得分到新数组的数值的合计数，与新数组标定的可容纳极限值，差额在N个新数组之间尽可能接近一致
+
+
+
