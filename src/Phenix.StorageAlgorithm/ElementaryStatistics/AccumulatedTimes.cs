@@ -3,7 +3,7 @@
 namespace Phenix.StorageAlgorithm.ElementaryStatistics
 {
     /// <summary>
-    /// 堆积数值规模
+    /// 堆积数值的规模
     /// </summary>
     [Serializable]
     public class AccumulatedTimes
