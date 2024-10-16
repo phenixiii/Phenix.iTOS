@@ -1,0 +1,16 @@
+D:\TOPS6\src\NZ.TOPS6.CraneAssignmentService\obj\Release\net8.0\PubTmp\Out\NZ.TOPS6.CraneAssignmentService.exe
+D:\TOPS6\src\NZ.TOPS6.CraneAssignmentService\obj\Release\net8.0\PubTmp\Out\appsettings.Development.json
+D:\TOPS6\src\NZ.TOPS6.CraneAssignmentService\obj\Release\net8.0\PubTmp\Out\appsettings.json
+D:\TOPS6\src\NZ.TOPS6.CraneAssignmentService\obj\Release\net8.0\PubTmp\Out\NZ.TOPS6.CraneAssignmentService.dll
+D:\TOPS6\src\NZ.TOPS6.CraneAssignmentService\obj\Release\net8.0\PubTmp\Out\NZ.TOPS6.CraneAssignmentService.deps.json
+D:\TOPS6\src\NZ.TOPS6.CraneAssignmentService\obj\Release\net8.0\PubTmp\Out\NZ.TOPS6.CraneAssignmentService.runtimeconfig.json
+D:\TOPS6\src\NZ.TOPS6.CraneAssignmentService\obj\Release\net8.0\PubTmp\Out\NZ.TOPS6.CraneAssignmentService.pdb
+D:\TOPS6\src\NZ.TOPS6.CraneAssignmentService\obj\Release\net8.0\PubTmp\Out\Dapr.Actors.dll
+D:\TOPS6\src\NZ.TOPS6.CraneAssignmentService\obj\Release\net8.0\PubTmp\Out\Dapr.Actors.AspNetCore.dll
+D:\TOPS6\src\NZ.TOPS6.CraneAssignmentService\obj\Release\net8.0\PubTmp\Out\Dapr.AspNetCore.dll
+D:\TOPS6\src\NZ.TOPS6.CraneAssignmentService\obj\Release\net8.0\PubTmp\Out\Dapr.Client.dll
+D:\TOPS6\src\NZ.TOPS6.CraneAssignmentService\obj\Release\net8.0\PubTmp\Out\Google.Api.CommonProtos.dll
+D:\TOPS6\src\NZ.TOPS6.CraneAssignmentService\obj\Release\net8.0\PubTmp\Out\Google.Protobuf.dll
+D:\TOPS6\src\NZ.TOPS6.CraneAssignmentService\obj\Release\net8.0\PubTmp\Out\Grpc.Core.Api.dll
+D:\TOPS6\src\NZ.TOPS6.CraneAssignmentService\obj\Release\net8.0\PubTmp\Out\Grpc.Net.Client.dll
+D:\TOPS6\src\NZ.TOPS6.CraneAssignmentService\obj\Release\net8.0\PubTmp\Out\Grpc.Net.Common.dll

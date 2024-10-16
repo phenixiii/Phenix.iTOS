@@ -1,0 +1,145 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Phenix.Net</name>
+    </assembly>
+    <members>
+        <member name="T:Phenix.Net.Api.ControllerBase">
+            <summary>
+            控制器基类
+            </summary>
+        </member>
+        <member name="M:Phenix.Net.Api.ControllerBase.SelectRecord``1(Phenix.Core.Data.Database,System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}},System.Int32,System.Int32,Phenix.Mapper.Expressions.OrderBy{``0}[])">
+            <summary>
+            获取记录(JSON格式)
+            </summary>
+            <param name="database">数据库入口</param>
+            <param name="criteriaLambda">条件表达式</param>
+            <param name="pageNo">页码(1..N, 0为不分页)</param>
+            <param name="pageSize">分页大小</param>
+            <param name="orderBys">排序队列</param>
+            <returns>DataPageInfo</returns>
+        </member>
+        <member name="M:Phenix.Net.Api.ControllerBase.SelectRecord``1(Phenix.Core.Data.Database,System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}},System.Object,System.Int32,System.Int32,Phenix.Mapper.Expressions.OrderBy{``0}[])">
+            <summary>
+            获取记录(JSON格式)
+            </summary>
+            <param name="database">数据库入口</param>
+            <param name="criteriaLambda">条件表达式</param>
+            <param name="criteria">条件对象/JSON格式字符串/属性值队列</param>
+            <param name="pageNo">页码(1..N, 0为不分页)</param>
+            <param name="pageSize">分页大小</param>
+            <param name="orderBys">排序队列</param>
+            <returns>DataPageInfo</returns>
+        </member>
+        <member name="M:Phenix.Net.Api.ControllerBase.SelectRecord``1(Phenix.Core.Data.Database,Phenix.Mapper.Expressions.CriteriaExpression,System.Int32,System.Int32,Phenix.Mapper.Expressions.OrderBy{``0}[])">
+            <summary>
+            获取记录(JSON格式)
+            </summary>
+            <param name="database">数据库入口</param>
+            <param name="criteriaExpression">条件表达式</param>
+            <param name="pageNo">页码(1..N, 0为不分页)</param>
+            <param name="pageSize">分页大小</param>
+            <param name="orderBys">排序队列</param>
+            <returns>DataPageInfo</returns>
+        </member>
+        <member name="M:Phenix.Net.Api.ControllerBase.SelectRecord``1(Phenix.Core.Data.Database,Phenix.Mapper.Expressions.CriteriaExpression,System.Object,System.Int32,System.Int32,Phenix.Mapper.Expressions.OrderBy{``0}[])">
+            <summary>
+            获取记录(JSON格式)
+            </summary>
+            <param name="database">数据库入口</param>
+            <param name="criteriaExpression">条件表达式</param>
+            <param name="criteria">条件对象/JSON格式字符串/属性值队列</param>
+            <param name="pageNo">页码(1..N, 0为不分页)</param>
+            <param name="pageSize">分页大小</param>
+            <param name="orderBys">排序队列</param>
+            <returns>DataPageInfo</returns>
+        </member>
+        <member name="M:Phenix.Net.Api.ControllerBase.SelectRecord``2(Phenix.Core.Data.Database,System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}},System.Int32,System.Int32,Phenix.Mapper.Expressions.OrderBy{``0}[])">
+            <summary>
+            获取记录(JSON格式)
+            </summary>
+            <param name="database">数据库入口</param>
+            <param name="criteriaLambda">条件表达式</param>
+            <param name="pageNo">页码(1..N, 0为不分页)</param>
+            <param name="pageSize">分页大小</param>
+            <param name="orderBys">排序队列</param>
+            <returns>DataPageInfo</returns>
+        </member>
+        <member name="M:Phenix.Net.Api.ControllerBase.SelectRecord``2(Phenix.Core.Data.Database,System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}},System.Object,System.Int32,System.Int32,Phenix.Mapper.Expressions.OrderBy{``0}[])">
+            <summary>
+            获取记录(JSON格式)
+            </summary>
+            <param name="database">数据库入口</param>
+            <param name="criteriaLambda">条件表达式</param>
+            <param name="criteria">条件对象/JSON格式字符串/属性值队列</param>
+            <param name="pageNo">页码(1..N, 0为不分页)</param>
+            <param name="pageSize">分页大小</param>
+            <param name="orderBys">排序队列</param>
+            <returns>DataPageInfo</returns>
+        </member>
+        <member name="M:Phenix.Net.Api.ControllerBase.SelectRecord``2(Phenix.Core.Data.Database,Phenix.Mapper.Expressions.CriteriaExpression,System.Int32,System.Int32,Phenix.Mapper.Expressions.OrderBy{``0}[])">
+            <summary>
+            获取记录(JSON格式)
+            </summary>
+            <param name="database">数据库入口</param>
+            <param name="criteriaExpression">条件表达式</param>
+            <param name="pageNo">页码(1..N, 0为不分页)</param>
+            <param name="pageSize">分页大小</param>
+            <param name="orderBys">排序队列</param>
+            <returns>DataPageInfo</returns>
+        </member>
+        <member name="M:Phenix.Net.Api.ControllerBase.SelectRecord``2(Phenix.Core.Data.Database,Phenix.Mapper.Expressions.CriteriaExpression,System.Object,System.Int32,System.Int32,Phenix.Mapper.Expressions.OrderBy{``0}[])">
+            <summary>
+            获取记录(JSON格式)
+            </summary>
+            <param name="database">数据库入口</param>
+            <param name="criteriaExpression">条件表达式</param>
+            <param name="criteria">条件对象/JSON格式字符串/属性值队列</param>
+            <param name="pageNo">页码(1..N, 0为不分页)</param>
+            <param name="pageSize">分页大小</param>
+            <param name="orderBys">排序队列</param>
+            <returns>DataPageInfo</returns>
+        </member>
+        <member name="T:Phenix.Net.Api.DataPageInfo`1">
+            <summary>
+            数据页信息
+            </summary>
+        </member>
+        <member name="M:Phenix.Net.Api.DataPageInfo`1.#ctor(System.String,System.Int64,System.Int32,System.Int32,System.String)">
+            <summary>
+            初始化
+            </summary>
+        </member>
+        <member name="P:Phenix.Net.Api.DataPageInfo`1.DataFormat">
+            <summary>
+            数据格式
+            </summary>
+        </member>
+        <member name="P:Phenix.Net.Api.DataPageInfo`1.DataName">
+            <summary>
+            数据名
+            </summary>
+        </member>
+        <member name="P:Phenix.Net.Api.DataPageInfo`1.DataSize">
+            <summary>
+            数据量
+            </summary>
+        </member>
+        <member name="P:Phenix.Net.Api.DataPageInfo`1.PageNo">
+            <summary>
+            页码(1..N, 0为不分页)
+            </summary>
+        </member>
+        <member name="P:Phenix.Net.Api.DataPageInfo`1.PageSize">
+            <summary>
+            分页大小
+            </summary>
+        </member>
+        <member name="P:Phenix.Net.Api.DataPageInfo`1.PageBody">
+            <summary>
+            页体(JSON格式)
+            </summary>
+        </member>
+    </members>
+</doc>

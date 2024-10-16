@@ -1,0 +1,7 @@
+D:\Phenix.iTOS\src\Phenix.iTOS.CollaborativeTruckSchedulingService\obj\Release\net8.0\Phenix.iTOS.CollaborativeTruckSchedulingService.csproj.AssemblyReference.cache
+D:\Phenix.iTOS\src\Phenix.iTOS.CollaborativeTruckSchedulingService\obj\Release\net8.0\Phenix.iTOS.CollaborativeTruckSchedulingService.GeneratedMSBuildEditorConfig.editorconfig
+D:\Phenix.iTOS\src\Phenix.iTOS.CollaborativeTruckSchedulingService\obj\Release\net8.0\Phenix.iTOS.CollaborativeTruckSchedulingService.AssemblyInfoInputs.cache
+D:\Phenix.iTOS\src\Phenix.iTOS.CollaborativeTruckSchedulingService\obj\Release\net8.0\Phenix.iTOS.CollaborativeTruckSchedulingService.AssemblyInfo.cs
+D:\Phenix.iTOS\src\Phenix.iTOS.CollaborativeTruckSchedulingService\obj\Release\net8.0\Phenix.iTOS.CollaborativeTruckSchedulingService.csproj.CoreCompileInputs.cache
+D:\Phenix.iTOS\src\Phenix.iTOS.CollaborativeTruckSchedulingService\obj\Release\net8.0\Phenix.iTOS.CollaborativeTruckSchedulingService.MvcApplicationPartsAssemblyInfo.cs
+D:\Phenix.iTOS\src\Phenix.iTOS.CollaborativeTruckSchedulingService\obj\Release\net8.0\Phenix.iTOS.CollaborativeTruckSchedulingService.MvcApplicationPartsAssemblyInfo.cache
