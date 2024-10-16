@@ -9,28 +9,3 @@ Copyright © 2007, 2024 Phenixヾ Studio
 提供Phenix.Core工程，精简版开发工具库
 
 
-20230511
-提供Phenix.Algorithm工程，实现“栈式库存挑货问题”（StackInventory.ChooseGoods）、“基础统计.堆积数值的众数”（ElementaryStatistics.AccumulatedMode）
-
-
-20230907
-基于赵宁等编著《集装箱码头数字化营运管理（第二版）》、范志强的《集装箱港口连续泊位分配与岸桥作业调度联合优化》书籍，整理BAP+QCAP+QCSP集成算法所需的资料准备、业务规则、岗位分工、信息生成等内容，编写《BAP+QCAP+QCSP.xmind》思维导图
-
-
-20231023
-升级Phenix.Algorithm工程，启动“装船前预翻箱问题”（BayInventory.PreShipmentBlockRelocation）的研发
-
-
-20231116
-升级到.NET8
-
-
-20240102
-今日，“栈式库存挑货问题”（StackInventory.ChooseGoods）已成功申请到发明专利，使用需获得作者授权
-
-
-20240119
-升级Phenix.Algorithm工程，添加拆分数组目录，提供均衡拆分数组类EvenlySplitArray，将一个数值数组拆分为N个新数组，要使得分到新数组的数值的合计数，与新数组标定的可容纳极限值，差额在N个新数组之间尽可能接近一致
-
-
-
