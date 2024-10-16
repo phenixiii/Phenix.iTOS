@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCopyrightAttribute("Copyright © 2007, 2024 Phenixヾ Studio")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("Phenix Framework 7.8 for .NET 8")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("7.8.64.0711")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("7.8.64+9af352283eb4ca57690cde6a3f9e7b3c23822cd2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("7.8.64+c86b5b33a87447ea76807d1bc7f9ed471a7c0b9e")]
 [assembly: System.Reflection.AssemblyProductAttribute("Phenix.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Phenix.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("7.8.64.0711")]

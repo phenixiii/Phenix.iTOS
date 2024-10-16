@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Phenix.iTOS.ContainerTerminalMonitoring")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9af352283eb4ca57690cde6a3f9e7b3c23822cd2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c86b5b33a87447ea76807d1bc7f9ed471a7c0b9e")]
 [assembly: System.Reflection.AssemblyProductAttribute("Phenix.iTOS.ContainerTerminalMonitoring")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Phenix.iTOS.ContainerTerminalMonitoring")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
