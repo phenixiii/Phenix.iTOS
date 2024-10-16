@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\NZ.TOPS6.CraneAssignmentService.props" />
-</Project>

@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\NZ.TOPS6.CraneAssignmentService.props" />
-</Project>
