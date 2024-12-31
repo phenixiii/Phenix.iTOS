@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="拓扑地图">
+    <Position X="2.55" Y="0.5" Height="0.75" Width="1.7" />
+  </Comment>
+  <Class Name="Phenix.iTOS.CollaborativeTruckSchedulingService.Models.TopologicalMap">
+    <Position X="0.5" Y="0.5" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAgAAQAAAAAAgBAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\TopologicalMap.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="InGateDict" />
+      <Property Name="NodeDict" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Phenix.iTOS.CollaborativeTruckSchedulingService.Models.TopologicalMapJunction">
+    <Position X="3.25" Y="1.5" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAgAAAAAAAAAEIAAAAAAAABAAAAEAAEA=</HashCode>
+      <FileName>Models\TopologicalMapJunction.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Node" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="EntryLanes" />
+      <Property Name="ExitLanes" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Phenix.iTOS.CollaborativeTruckSchedulingService.Models.TopologicalMapNode">
+    <Position X="3.25" Y="3.75" Width="2" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAIAACAAABAAAAAAAAIAAAAAAAAAAAAEACAABAgAAAA=</HashCode>
+      <FileName>Models\TopologicalMapNode.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="NodeType" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Phenix.iTOS.CollaborativeTruckSchedulingService.Models.TopologicalMapLane">
+    <Position X="6.5" Y="1.5" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>QAAiABAAAAwAAAAAAABABAQAAACAAAAAAAiAAAAAAMA=</HashCode>
+      <FileName>Models\TopologicalMapLane.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Phenix.iTOS.CollaborativeTruckSchedulingService.Models.TopologicalMapNodeType">
+    <Position X="6.5" Y="4.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAACAAACAAAgACAAAAEIAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Models\TopologicalMapNodeType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>

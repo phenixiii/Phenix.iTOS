@@ -7,11 +7,12 @@ using System.Data.SQLite;
 using System.IO;
 using System.Linq;
 using System.Threading;
+
 #if PgSQL
 using Npgsql;
 #endif
 #if MsSQL
-using System.Data.SqlClient;
+using Microsoft.Data.SqlClient;
 #endif
 #if MySQL
 using MySql.Data.MySqlClient;
@@ -19,6 +20,7 @@ using MySql.Data.MySqlClient;
 #if ORA
 using Oracle.ManagedDataAccess.Client;
 #endif
+
 using Phenix.Core.Data.Common;
 using Phenix.Core.Log;
 using Phenix.Core.Security.Cryptography;

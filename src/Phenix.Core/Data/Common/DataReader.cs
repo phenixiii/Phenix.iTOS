@@ -101,11 +101,32 @@ namespace Phenix.Core.Data.Common
         /// <summary>
         /// 初始化
         /// </summary>
+        /// <param name="sql">SQL 语句</param>
+        /// <param name="paramValues">参数值</param>
+        public DataReader(string sql, params ParamValue[] paramValues)
+            : this(Database.Default, sql, CommandBehavior.Default, paramValues)
+        {
+        }
+
+        /// <summary>
+        /// 初始化
+        /// </summary>
         /// <param name="database">数据库入口</param>
         /// <param name="sql">SQL 语句</param>
         /// <param name="paramValues">参数值</param>
         public DataReader(Database database, string sql, params ParamValue[] paramValues)
             : this(database, sql, CommandBehavior.Default, paramValues)
+        {
+        }
+
+        /// <summary>
+        /// 初始化
+        /// </summary>
+        /// <param name="sql">SQL 语句</param>
+        /// <param name="behavior">CommandBehavior</param>
+        /// <param name="paramValues">参数值</param>
+        public DataReader(string sql, CommandBehavior behavior, params ParamValue[] paramValues)
+            : this(Database.Default, sql, behavior, paramValues)
         {
         }
 
@@ -118,7 +139,7 @@ namespace Phenix.Core.Data.Common
         /// <param name="paramValues">参数值</param>
         public DataReader(Database database, string sql, CommandBehavior behavior, params ParamValue[] paramValues)
         {
-            _database = database;
+            _database = database ?? Database.Default;
             _sql = sql;
             _behavior = behavior;
             _paramValues = paramValues;

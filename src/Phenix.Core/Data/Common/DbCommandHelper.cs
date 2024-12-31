@@ -5,12 +5,13 @@ using System.Data.Common;
 using System.Globalization;
 using System.Text;
 using System.Xml;
+
 #if PgSQL
 using Npgsql;
 using NpgsqlTypes;
 #endif
 #if MsSQL
-using System.Data.SqlClient;
+using Microsoft.Data.SqlClient;
 #endif
 #if MySQL
 using MySql.Data.MySqlClient;
@@ -18,6 +19,7 @@ using MySql.Data.MySqlClient;
 #if ORA
 using Oracle.ManagedDataAccess.Client;
 #endif
+
 using Phenix.Core.Log;
 using Phenix.Core.Reflection;
 

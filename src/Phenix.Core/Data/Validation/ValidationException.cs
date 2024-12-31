@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Runtime.Serialization;
 
 namespace Phenix.Core.Data.Validation
 {
@@ -71,35 +70,6 @@ namespace Phenix.Core.Data.Validation
             _validationMessage = new ValidationMessage(key, statusCode, message);
         }
 
-        #region Serialization
-
-        /// <summary>
-        /// 序列化
-        /// </summary>
-        protected ValidationException(SerializationInfo info, StreamingContext context)
-            : base(info, context)
-        {
-            if (info == null)
-                throw new ArgumentNullException(nameof(info));
-
-            _validationMessage = (ValidationMessage) info.GetValue("_validationMessage", typeof(ValidationMessage));
-        }
-
-        /// <summary>
-        /// 反序列化
-        /// </summary>
-        [System.Security.SecurityCritical]
-        public override void GetObjectData(SerializationInfo info, StreamingContext context)
-        {
-            if (info == null)
-                throw new ArgumentNullException(nameof(info));
-
-            base.GetObjectData(info, context);
-            info.AddValue("_validationMessage", _validationMessage);
-        }
-
-        #endregion
-        
         #region 属性
 
         private readonly ValidationMessage _validationMessage;

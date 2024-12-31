@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Runtime.Serialization;
 using System.Security.Authentication;
 
 namespace Phenix.Core.Security.Auth
@@ -25,17 +24,5 @@ namespace Phenix.Core.Security.Auth
             : base(message, innerException)
         {
         }
-
-        #region Serialization
-
-        /// <summary>
-        /// 序列化
-        /// </summary>
-        protected UserVerifyException(SerializationInfo serializationInfo, StreamingContext streamingContext)
-            : base(serializationInfo, streamingContext)
-        {
-        }
-
-        #endregion
     }
 }

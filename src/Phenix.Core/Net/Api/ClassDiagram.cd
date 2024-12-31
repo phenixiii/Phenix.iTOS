@@ -7,5 +7,19 @@
       <FileName>Net\Api\ControllerBase.cs</FileName>
     </TypeIdentifier>
   </Class>
+  <Class Name="Phenix.Core.Net.Api.DataControllerBase">
+    <Position X="2.25" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Net\Api\DataControllerBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Phenix.Core.Net.Api.DataPageInfo&lt;T&gt;">
+    <Position X="5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAEAAAAAAAAAAAAAUABAIAAAAAEASAAQA=</HashCode>
+      <FileName>Net\Api\DataPageInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
   <Font Name="Microsoft YaHei UI" Size="9" />
 </ClassDiagram>

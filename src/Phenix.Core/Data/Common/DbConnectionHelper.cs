@@ -1,13 +1,12 @@
 ﻿using System;
 using System.Data;
 using System.Data.Common;
-using System.Transactions;
 
 #if PgSQL
 using Npgsql;
 #endif
 #if MsSQL
-using System.Data.SqlClient;
+using Microsoft.Data.SqlClient;
 #endif
 #if MySQL
 using MySql.Data.MySqlClient;
@@ -15,6 +14,7 @@ using MySql.Data.MySqlClient;
 #if ORA
 using Oracle.ManagedDataAccess.Client;
 #endif
+
 using Phenix.Core.Log;
 
 namespace Phenix.Core.Data.Common

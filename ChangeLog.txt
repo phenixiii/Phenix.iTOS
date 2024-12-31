@@ -1,7 +1,8 @@
 Phenix.iTOS
-Copyright © 2007, 2024 Phenixヾ Studio
+Copyright © 2007, 2025 Phenixヾ Studio
 
 发布地址：https://github.com/phenixiii/Phenix.iTOS
+                   https://gitee.com/phenixiii/phenix.i-tos
 技术交流群：206648373
 
 
@@ -9,8 +10,9 @@ Copyright © 2007, 2024 Phenixヾ Studio
 提供Phenix.Core工程，精简版开发工具库
 
 
-202412016
+20241016
 搭建Phenix.iTOS.CollaborativeTruckSchedulingService水平运输调度服务
 
 
-
+20241231
+实现TruckPoolsController服务
