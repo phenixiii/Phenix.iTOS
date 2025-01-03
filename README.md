@@ -1,8 +1,8 @@
-# Phenix.iTOS
+# Phenix.CTOS
 
 #### 介绍
-Container Intelligent Terminal Operation System
-集装箱智能码头操作系统
+Container Terminal Operation System
+集装箱码头操作系统
 
 提供：自动指泊、自动配载、自动派位、自动运输调度、自动装卸调度、智能理货等模块。
 

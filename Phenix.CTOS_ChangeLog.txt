@@ -1,0 +1,20 @@
+Phenix.CTOS
+Copyright © 2007, 2025 Phenixヾ Studio
+Container Terminal Operation System
+集装箱码头操作系统
+
+发布地址：https://github.com/phenixiii/Phenix.CTOS
+          https://gitee.com/phenixiii/phenix.ctos
+技术交流群：206648373
+
+
+20230504
+提供Phenix.Core工程，精简版开发工具库
+
+
+20241016
+搭建Phenix.CTOS.CollaborativeTruckSchedulingService水平运输调度服务
+
+
+20241231
+实现TruckPoolsController服务

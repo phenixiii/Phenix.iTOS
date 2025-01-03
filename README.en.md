@@ -1,7 +1,7 @@
-# Phenix.iTOS
+# Phenix.CTOS
 
 #### Description
-Container Intelligent Terminal Operation System
+Container Terminal Operation System
 
 
 #### Software Architecture

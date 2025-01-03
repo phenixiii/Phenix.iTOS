@@ -1,9 +1,9 @@
 Phenix.NET7
-Copyright © 2007, 2024 Phenixヾ Studio
+Copyright © 2007, 2025 Phenixヾ Studio
 使用开发框架的目的，首要的是对软件过程的有效管控，让团队保持一致的编写风格，提升协作效率、开发速度和代码质量，保证软件产品的可维护性
 
-发布地址：https://github.com/phenixiii/Phenix.NET7
-新发布地址：https://gitee.com/phenixiii/phenix.i-tos/tree/master/Phenix.Core
+发布地址：https://github.com/phenixiii/Phenix.CTOS/tree/master/src/Phenix.Core
+          https://gitee.com/phenixiii/phenix.ctos/tree/master/Phenix.Core
 技术交流群：206648373
 
 
@@ -259,3 +259,5 @@ AppSettings存取的配置值，向前兼容不了的时候可以通过升版本
 整理《Phenix.Core_持久层框架使用方法》
 
 
+20241223
+整理ExceptionHandlerMiddleware代码逻辑
